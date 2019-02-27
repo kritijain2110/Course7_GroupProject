@@ -39,7 +39,34 @@ class Login extends Component {
         };
     }
 
-    
+    loginClickHandler = () => {
+        this.setState({ incorrectUsernamePassword: "dispNone" });
+        this.state.username === "" ? this.setState({ usernameRequired: "displayBlock" }) : this.setState({ usernameRequired: "dispNone" });
+        this.state.password === "" ? this.setState({ passwordRequired: "displayBlock" }) : this.setState({ passwordRequired: "dispNone" });
+
+        if (this.state.username === "" || this.state.password === "") { return }
+
+        if (this.state.username === "admin" && this.state.password === "admin") {
+            sessionStorage.setItem('username','admin');
+            sessionStorage.setItem('access-token', '8661035776.d0fcd39.87fd934e04f84253aaf234d8bd4e4c65');
+            this.setState({ loggedIn: true });
+            this.navigateToHome();
+        } else {
+            this.setState({ incorrectUsernamePassword: "displayBlock" });
+        }
+    }
+
+    navigateToHome = () =>{
+      this.props.history.push('/home');
+    }
+
+    inputUsernameChangeHandler = (e) => {
+        this.setState({ username: e.target.value })
+    }
+
+    inputPasswordChangeHandler = (e) => {
+        this.setState({ password: e.target.value })
+    }
 
     render() {
         return (
