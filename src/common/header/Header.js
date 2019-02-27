@@ -33,26 +33,6 @@ class Header extends Component{
         </AppBar>
     </div>)
   }
-
-  handleClick = (event) =>{
-    this.setState({
-      anchorEl: event.currentTarget
-    })
-  }
-
-  handleAccount = ()=>{
-    this.props.handleAccount();
-    this.handleClose();
-  }
-
-  handleLogout = ()=>{
-    this.props.handleLogout();
-    this.handleClose();
-  }
-
-  handleClose = () =>{
-    this.setState({ anchorEl: null });
-  }
 }
 
 export default withStyles(styles)(Header)
