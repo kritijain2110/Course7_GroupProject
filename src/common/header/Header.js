@@ -1,44 +1,58 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './Header.css';
-
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
+import {withStyles} from '@material-ui/core/styles';
 
-const styles = {
-    root: {
-      flexGrow: 1,
-    },
-  };
 
-  function SimpleAppBar(props) {
-    const { classes } = props;
+const styles = theme => ({
+  grow: {
+    flexGrow: 1
+  },
+  appHeader:{
+    backgroundColor:'#263238'
+  }
+})
 
-  class Header extends Component {
-    render(){
-  
-  
-    return (
-      <header className="app-header">
-      <div className={classes.root}>
-        <AppBar position="static" color="#default">
+class Header extends Component{
+
+  constructor(props){
+    super(props);
+    this.state = {
+      anchorEl: null,
+    };
+  }
+
+  render(){
+    const {classes,screen} = this.props;
+    return (<div>
+        <AppBar className={classes.appHeader}>
           <Toolbar>
-            <Typography variant="h6" color="inherit">
-              Image Viewer
-            </Typography>
-          </Toolbar>       
+            {(screen === "Login" || screen === "Home") && <span className="header-logo">Image Viewer</span>}
+          </Toolbar>
         </AppBar>
-      </div>
-      </header>
-    );
+    </div>)
+  }
+
+  handleClick = (event) =>{
+    this.setState({
+      anchorEl: event.currentTarget
+    })
+  }
+
+  handleAccount = ()=>{
+    this.props.handleAccount();
+    this.handleClose();
+  }
+
+  handleLogout = ()=>{
+    this.props.handleLogout();
+    this.handleClose();
+  }
+
+  handleClose = () =>{
+    this.setState({ anchorEl: null });
   }
 }
-  
-  SimpleAppBar.propTypes = {
-    classes: PropTypes.object.isRequired,
-  };
-  
-  export default withStyles(styles)(SimpleAppBar);
-  export default Header;
+
+export default withStyles(styles)(Header)
