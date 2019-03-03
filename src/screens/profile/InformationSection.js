@@ -32,12 +32,13 @@ class InformationSection extends Component {
             <div className="details">
 
                 <div className="containerDetails">
-                    {/*<div className="leftDetails">
+                    <div className="leftDetails">
                         <img className="profileImage" src=""/>
-                    </div>*/}
+                    </div>
                     <div className="rightDetails">
                         <div>
-                            <Typography variant="h5" component="h5"> Username </Typography>
+                            <br />
+                            <Typography variant="h5" component="h5" className="heading"> Username </Typography>
                         </div>
                         <br />
                         <div className="counterContainer">

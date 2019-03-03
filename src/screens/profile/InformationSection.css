@@ -1,5 +1,5 @@
 .details{
-    margin-top:24px;
+    margin-top:28px;
     margin-bottom:24px;
 }
 .leftDetails{
@@ -27,7 +27,7 @@
     display:flex;
 }
 .editButton{
-    margin-left:24px;
+    margin-left:28px;
 }
 .fullName{
     padding-top:20px;
@@ -35,4 +35,8 @@
 .editLabelHead{
     font-family: roboto;
 
+}
+
+.heading{
+    adding-top:20px;
 }
