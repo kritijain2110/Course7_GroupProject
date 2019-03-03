@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c43b50c-f4f7-454a-afdf-804a30e403ca" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/screens/profile/ImageGrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/profile/PostdetailSection.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/profile/PostdetailSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/profile/InformationSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/profile/InformationSection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/profile/InformationSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/profile/InformationSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/profile/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/profile/ImageGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/profile/ImageGrid.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,16 +70,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageGrid.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ImageGrid.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/screens/profile/ImageGrid.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="PostdetailSection.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/profile/PostdetailSection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -94,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostdetailSection.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostdetailSection.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/profile/PostdetailSection.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="373">
               <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
             </state>
           </provider>
@@ -164,10 +164,10 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/screens/profile/InformationSection.css" />
         <option value="$PROJECT_DIR$/src/screens/profile/InformationSection.js" />
-        <option value="$PROJECT_DIR$/src/screens/profile/ImageGrid.js" />
         <option value="$PROJECT_DIR$/src/screens/profile/Profile.js" />
         <option value="$PROJECT_DIR$/src/screens/profile/PostdetailSection.js" />
         <option value="$PROJECT_DIR$/src/screens/profile/PostdetailSection.css" />
+        <option value="$PROJECT_DIR$/src/screens/profile/ImageGrid.js" />
       </list>
     </option>
   </component>
@@ -327,12 +327,12 @@
       <workItem from="1550728352975" duration="4662000" />
       <workItem from="1551465891999" duration="5332000" />
       <workItem from="1551554911651" duration="11184000" />
-      <workItem from="1551614659178" duration="4312000" />
+      <workItem from="1551614659178" duration="4593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25490000" />
+    <option name="totallyTimeSpent" value="25771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -348,10 +348,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32933104" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32933104" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24205749" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24205749" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -366,6 +366,35 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24205749" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32933104" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -627,16 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/login/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="50" column="103" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="103" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/profile/InformationSection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -646,9 +665,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/profile/ImageGrid.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/profile/Profile.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -660,20 +676,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/profile/PostdetailSection.js">
+    <entry file="file://$PROJECT_DIR$/src/screens/login/Login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="289">
+          <caret line="50" column="103" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="103" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/profile/PostdetailSection.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="373">
           <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/profile/PostdetailSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/profile/ImageGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
