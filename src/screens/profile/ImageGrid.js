@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-import PostDetailsSection from './postdetailSection'
+import PostdetailSection from './PostdetailSection'
 import Modal from 'react-modal';
 
 //add the access token below
@@ -70,7 +70,7 @@ class ImageGrid extends Component{
                 <Modal ariaHideApp={false} isOpen={this.state.modalIsOpen}
                        onRequestClose={this.closeModalHandler}  >
 
-                    <PostDetailsSection currentPostData={this.state.currentPost}/>
+                    <PostdetailSection currentPostData={this.state.currentPost}/>
 
 
                 </Modal>

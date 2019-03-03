@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c43b50c-f4f7-454a-afdf-804a30e403ca" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/screens/profile/ImageGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/profile/ImageGrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/profile/Profile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Profile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Profile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/profile/Profile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="235">
@@ -62,17 +61,20 @@
       <file leaf-file-name="InformationSection.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/profile/InformationSection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="216">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageGrid.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ImageGrid.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/screens/profile/ImageGrid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+            <state relative-caret-position="230">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -164,8 +166,8 @@
         <option value="$PROJECT_DIR$/src/screens/profile/InformationSection.js" />
         <option value="$PROJECT_DIR$/src/screens/profile/PostdetailSection.css" />
         <option value="$PROJECT_DIR$/src/screens/profile/PostdetailSection.js" />
-        <option value="$PROJECT_DIR$/src/screens/profile/ImageGrid.js" />
         <option value="$PROJECT_DIR$/src/screens/profile/Profile.js" />
+        <option value="$PROJECT_DIR$/src/screens/profile/ImageGrid.js" />
       </list>
     </option>
   </component>
@@ -325,12 +327,12 @@
       <workItem from="1550728352975" duration="4662000" />
       <workItem from="1551465891999" duration="5332000" />
       <workItem from="1551554911651" duration="11184000" />
-      <workItem from="1551614659178" duration="5908000" />
+      <workItem from="1551614659178" duration="6362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27086000" />
+    <option name="totallyTimeSpent" value="27540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -480,6 +482,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="999">
           <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -668,13 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/profile/InformationSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/login/Login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -685,22 +683,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/profile/ImageGrid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/profile/Profile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/profile/InformationSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/profile/ImageGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
