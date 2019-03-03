@@ -7,7 +7,7 @@ import FormControl from '@material-ui/core/FormControl';
 import InputLabel from '@material-ui/core/InputLabel';
 import Input from '@material-ui/core/Input';
 import FormHelperText from '@material-ui/core/FormHelperText';
-
+import {link} from 'react-rouer-dom'
 import Header from '../../common/header/Header';
 import './Login.css'
 
@@ -87,7 +87,7 @@ class Login extends Component {
                             <FormHelperText className={this.state.passwordRequired}><span className="red">required</span></FormHelperText>
                         </FormControl><br /><br />
                         <div className={this.state.incorrectUsernamePassword}><span className="red"> Incorrect username and/or password </span></div><br />
-                        <Button variant="contained" color="primary" onClick={this.loginClickHandler}> LOGIN </Button>
+                        <Link to = {"/home"}><Button variant="contained" color="primary" onClick={this.loginClickHandler}> LOGIN </Button></Link>
                     </CardContent>
                 </Card>
             </div>
