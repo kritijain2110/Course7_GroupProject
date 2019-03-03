@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Fab from '@material-ui/core/Fab';
-import './informationSection.css';
+import './InformationSection.css';
 import EditIcon from '@material-ui/icons/Edit';
 import PropTypes from 'prop-types';
 
@@ -26,7 +26,7 @@ const TabContainer = function(props){
 TabContainer.propTypes = {
     children: PropTypes.node.isRequired
 }
-class informationSection extends Component {
+class InformationSection extends Component {
     render() {
         return (
             <div className="details">
@@ -63,4 +63,4 @@ class informationSection extends Component {
     }
 
 }
-export default withStyles(styles)(informationSection);
+export default withStyles(styles)(InformationSection);

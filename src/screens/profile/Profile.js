@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Header from '../../common/header/Header';
-import informationSection from './informationSection'
+import InformationSection from './InformationSection'
 
 class Profile extends Component {
     render() {
         return (
             <div>
                 <Header screen={"Profile"}/>
-                <informationSection/>
+                <InformationSection/>
             </div>
         )
     }
