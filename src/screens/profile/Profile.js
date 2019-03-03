@@ -9,6 +9,7 @@ class Profile extends Component {
             <div>
                 <Header screen={"Profile"}/>
                 <InformationSection/>
+                <ImageGrid/>
             </div>
         )
     }

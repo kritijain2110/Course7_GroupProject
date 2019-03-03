@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-import PostdetailSection from './postdetailSection'
+import PostDetailsSection from './postdetailSection'
 import Modal from 'react-modal';
 
 //add the access token below
@@ -24,21 +24,54 @@ const styles = theme => ({
 });
 class ImageGrid extends Component{
 
+    constructor(props){
+        super(props);
+        this.state={
+            imageData:[],
+            modalIsOpen:false,
+            currentPost:{}
+        }
+    }
+
+
+    componentWillMount(){
+        this.getData();
+    }
+    getData = async () => {
+        const api_call= await fetch(
+            'https://api.instagram.com/v1/users/self/media/recent?access_token='+ACCESS_TOKEN
+        );
+        const mediaData = await api_call.json();
+        if(mediaData){
+            this.setState({imageData:mediaData.data});
+            console.log(mediaData.data[0].images.standard_resolution.url);
+        }
+    }
+    openModalHandler=(post)=>{
+        this.setState({modalIsOpen:true,currentPost:post});
+        console.log(post)
+    }
+    closeModalHandler=()=>{
+        this.setState({modalIsOpen:false});
+    }
+
     render(){
         let {classes}= this.props;
-        let imagePostsData= this.state.imagePostsData;
+        let imageData= this.state.imageData;
         return(
             <div className={classes.root}>
                 <GridList cellHeight={400} className={classes.gridList} cols={3}>
-                    {imagePostsData.map(post => (
-                        <GridListTile key={"grid"+post.id}}>
-                            <img src="" />
+                    {imageData.map(post => (
+                        <GridListTile key={"grid"+post.id} onClick={() => this.openModalHandler(post)}>
+                            <img src={post.images.standard_resolution.url} alt={post.caption.text} />
                         </GridListTile>
                     ))}
                 </GridList>
-                <Modal ariaHideApp={false}  >
+                <Modal ariaHideApp={false} isOpen={this.state.modalIsOpen}
+                       onRequestClose={this.closeModalHandler}  >
 
-                    <PostdetailSection currentPostData={this.state.currentPost}/>
+                    <PostDetailsSection currentPostData={this.state.currentPost}/>
+
 
                 </Modal>
             </div>
