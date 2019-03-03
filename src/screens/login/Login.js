@@ -7,7 +7,7 @@ import FormControl from '@material-ui/core/FormControl';
 import InputLabel from '@material-ui/core/InputLabel';
 import Input from '@material-ui/core/Input';
 import FormHelperText from '@material-ui/core/FormHelperText';
-import {link} from 'react-rouer-dom'
+import {Link} from 'react-router-dom'
 import Header from '../../common/header/Header';
 import './Login.css'
 

@@ -15,10 +15,10 @@ import SearchIcon from '@material-ui/icons/Search';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import Avatar from '@material-ui/core/Avatar';
 import MoreIcon from '@material-ui/icons/MoreVert';
-import  './Logo.JPEG';
-import {link} from 'react-rouer-dom'
 
-import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router';
+
+
+import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router-dom';
 
 const styles = theme => ({
     root: {
